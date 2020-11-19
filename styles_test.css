@@ -1,0 +1,42 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	
+}
+#san{
+	background-color: aqua;
+}
+
+.art-text{
+	background-color: aqua;
+	width: 300px;
+	margin-top: 20px;
+}
+
+#box1, #box2, #box3{
+	width: 2rem;
+	height: 2rem;
+}
+#box1{
+	background: #6C1517;
+	xposition: absolute;
+    transform: translateX(200%);
+	
+}
+#box2{
+	background: #F8D320;
+	transform: translateX(100%);
+}
+
+#box3{
+	background: #6C8917;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(100%);
+}

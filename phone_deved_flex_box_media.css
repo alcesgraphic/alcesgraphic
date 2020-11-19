@@ -1,0 +1,7 @@
+@charset "utf-8";
+body{
+		background: #38C6FC
+	}
+div{
+	font-size: calc(1rem + 0.7vw);
+}

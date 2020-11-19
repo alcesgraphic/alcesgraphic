@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	width: 80%;
+	margin: auto;
+}
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 1.5rem;
+	
+}
+nav ul {
+	display: flex;
+	background: #87E5FB;
+	/* Set hight with "padding", not with "height" otherwise text is brocken */
+	padding: 1rem;
+	justify-content: space-around;
+	
+	align-items: center;
+	list-style: none;
+}
+
+.hero {
+	min-height: 90vh;
+	background-image: url("./img/pexels-vlada-karpovich-4050318.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	
+}
+
+.hero h2 {
+	text-align: center;
+	margin-bottom: 2rem;
+	margin-top: -2rem;
+	font-size: 3rem;
+	
+}
+
+.hero button{
+	padding: 1rem 2rem;
+	background: #AB9485;
+	border: none;
+	
+}
+.intro-img {
+	flex: 1 1 30rem;
+	background-image: url("./img/pexels-artem-podrez-4492129.jpg");
+	background-size: cover;
+	background-position: center;
+	
+	
+}
+
+
+.intro{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.intro-text{
+	background: #E9E5E1;
+	flex: 1 1 30rem;
+	padding: 6rem;
+	
+}
+
+.intro-text h2{
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+
+.intro p{
+	font-size: 1.5rem;
+}
